@@ -1,8 +1,8 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
-library;
+/// Dart SDK for KeePass KDBX databases.
+library keepass;
 
-export 'src/keepass_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/database.dart';
+export 'src/entry.dart';
+export 'src/group.dart';
+export 'src/merge_result.dart';
+export 'src/error.dart' show KeePassError;
